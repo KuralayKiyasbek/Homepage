@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+
+  </head>
+    <div class="small-container">
+      <h2 class="title">My Hobbies</h2>
+      <div class="row">
+        <p>Photographing and Skiing</p>
+        <div class="column">
+          <img src="images/IMG_2360.jpg" width="300px">
+        </div>
+        <div class="column">
+          <img src="images/IMG_2414.jpg" width="300px">
+        </div>
+        <div class="column">
+          <img src="images/IMG_7722.png" width="300px">
+        </div>
+      </div>
+    </div>
+
+    <style media="screen">
+      body{
+  background-image:url(images/skiing.jpg);
+   background-size: cover;
+   background-position: center;
+      }
+.small-container{
+  max-width: 1000px;
+  margin: auto;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+.row p{
+  font-family: cursive;
+  font-size: 50px;
+  color: grey;
+}
+.column{
+  flex-basis: 25%;
+  padding: 10px;
+  min-width: 200px;
+  margin-bottom: 50px;
+  transition: 0.5s;
+}
+.title{
+  text-align: center;
+  margin: 0 auto 80px;
+  position: relative;
+  line-height: 100px;
+  color: grey;
+  font-family: cursive;
+  font-size: 75px;
+}
+.column:hover{
+    transform: translateY(-5px);
+}
+
+
+
+    </style>
+</html>
